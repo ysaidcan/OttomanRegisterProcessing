@@ -1,0 +1,49 @@
+{
+    "classes_file": "classes.txt",
+    "eval_data": "/scratch/users/ycan/dhSegment/zistovi/train/",
+    "gpu": "0",
+    "model_output_dir": "model_zistovi_unet_all_100/",
+    "model_params": {
+        "batch_norm": true,
+        "batch_renorm": true,
+        "correct_resnet_version": false,
+        "intermediate_conv": null,
+        "max_depth": 512,
+        "n_classes": 3,
+        "pretrained_model_file": null,
+        "pretrained_model_name": "unet",
+        "selected_levels_upscaling": null,
+        "upscale_params": null,
+        "weight_decay": 1e-06
+    },
+    "prediction_type": "CLASSIFICATION",
+    "pretrained_model_name": "unet",
+    "restore_model": false,
+    "seed": 154824676,
+    "train_data": "/scratch/users/ycan/dhSegment/zistovi/train/",
+    "training_params": {
+        "batch_size": 3,
+        "data_augmentation": false,
+        "data_augmentation_color": false,
+        "data_augmentation_flip_lr": false,
+        "data_augmentation_flip_ud": false,
+        "data_augmentation_max_rotation": 0.2,
+        "data_augmentation_max_scaling": 0.05,
+        "evaluate_every_epoch": 2,
+        "exponential_learning": true,
+        "focal_loss_gamma": 0.0,
+        "input_resized_size": 720000,
+        "learning_rate": 1e-05,
+        "local_entropy_ratio": 0.0,
+        "local_entropy_sigma": 3,
+        "make_patches": true,
+        "n_epochs": 100,
+        "patch_shape": [
+            300,
+            300
+        ],
+        "training_margin": 16,
+        "weights_evaluation_miou": null,
+        "weights_labels": null
+    }
+}
