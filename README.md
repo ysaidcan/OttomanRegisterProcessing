@@ -26,4 +26,7 @@ as Unet or Resnet50 architecture. Furthermore, you can select whether to use GPU
 
 Sofia Ares Oliveira, Benoit Seguin, and Frederic Kaplan. Dhsegment: a generic deep-learning approach for document segmentation. In Frontiers in Handwriting Recognition (ICFHR), 2018 16th International Conference on, 7–12. IEEE, 2018.
 
-[The training file is:](train_iznik_villages.py)
+[You can find the training file from this link](train_iznik_villages.py)
+
+After you train your model, it will be saved to the provided output path. You can use the trained model for your test images. For that you will need demo files which can be found in:
+
