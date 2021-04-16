@@ -34,5 +34,6 @@ After you train your model, it will be saved to the provided output path. You ca
 
 It will output a csv file which includes pixelwise positions of the found objects. It will also draw boxes around detected objects. An example of a register page with detected objects is shown below:
 
-[NFS_d___01452_00002](NFS_d___02865_00002.jpg)
+![NFS_d___02865_00003_boxes](https://user-images.githubusercontent.com/4293082/114997273-543e5e80-9ea8-11eb-8251-f35817dafd74.jpg)
+
 
