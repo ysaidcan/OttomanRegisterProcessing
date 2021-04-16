@@ -30,3 +30,9 @@ Sofia Ares Oliveira, Benoit Seguin, and Frederic Kaplan. Dhsegment: a generic de
 
 After you train your model, it will be saved to the provided output path. You can use the trained model for your test images. For that you will need demo files which can be found in:
 
+[You can find the demo file from this link](demo_iznik.py)
+
+It will output a csv file which includes pixelwise positions of the found objects. It will also draw boxes around detected objects. An example of a register page with detected objects is shown below:
+
+[NFS_d___01452_00002](NFS_d___02865_00002.jpg)
+
