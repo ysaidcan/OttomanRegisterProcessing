@@ -40,6 +40,10 @@ The detected objects can be sorted in a way that Arabic language requires. Arabi
 
 [You can find the sorting Python script from this link](SortObjects.py)
 
+In some part of the Ottoman Population registers collected in 1840-1860, the age, person number and household number is written in red. To take advantage of this fact, we applied red color filter to spot the numerals. 
+
+[You can find the red color mask Python script from this link](MaskAll.py)
+
 
 
 
