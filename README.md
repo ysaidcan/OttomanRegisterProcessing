@@ -44,6 +44,11 @@ In some part of the Ottoman Population registers collected in 1840-1860, the age
 
 [You can find the red color mask Python script from this link](MaskAll.py)
 
+The original image of an example register page and red filtered version is demonstrated at below figure.
+
+![NFS_d___01452_00002](https://user-images.githubusercontent.com/4293082/115024083-47316780-9ec8-11eb-8123-9e5521cf8dd3.jpg)
+
+
 
 
 
