@@ -36,4 +36,11 @@ It will output a csv file which includes pixelwise positions of the found object
 
 ![NFS_d___02865_00003_boxes](https://user-images.githubusercontent.com/4293082/114997273-543e5e80-9ea8-11eb-8251-f35817dafd74.jpg)
 
+The detected objects can be sorted in a way that Arabic language requires. Arabic scripts start from the right top of the page. Therefore, sorting must be done in this way. Right top objects comes before. Another important point is that page is divided from the middle. Therefore, sorting must take into account this fact. Sorting script can be found below:
+
+[You can find the sorting Python script from this link](SortObjects.py)
+
+
+
+
 
