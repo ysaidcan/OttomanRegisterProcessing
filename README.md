@@ -54,6 +54,8 @@ A numeral spotting model can be trained by using the masked registers under the 
 
 ![NFS_d___02865_00003_masked_boxes](https://user-images.githubusercontent.com/4293082/115106232-3f2b0380-9f6c-11eb-991a-593607259e43.jpg)
 
+[Numbers and individuals can be combined with this Python script. ] (numberBelongtoIndividual.py)
+
 
 
 
