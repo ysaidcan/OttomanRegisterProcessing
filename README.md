@@ -48,9 +48,14 @@ The original image of an example register page and red filtered version is demon
 
 ![NFS_d___01452_00002](https://user-images.githubusercontent.com/4293082/115024083-47316780-9ec8-11eb-8123-9e5521cf8dd3.jpg)
 
-A numeral spotting model can be trained by using the masked registers under the numerals folder. The model can be tested by using a demo script file. It will again marked the numerals on the document images and output a csv files for the locations of these numerals.
+A numeral spotting model can be trained by using the masked registers under the numerals folder. The model can be tested by using a demo script file. It will again marked the numerals on the document images and output a csv files for the locations of these numerals. A sample detected numerals in a register page can be found below:
 
 [You can find the numeral recognition Python script](numberRecognition.py)
+
+![NFS_d___02865_00003_masked_boxes](https://user-images.githubusercontent.com/4293082/115106232-3f2b0380-9f6c-11eb-991a-593607259e43.jpg)
+
+
+
 
 
 
