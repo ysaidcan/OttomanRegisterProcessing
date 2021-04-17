@@ -56,6 +56,8 @@ A numeral spotting model can be trained by using the masked registers under the 
 
 [Numbers and individuals can be combined with this Python script.](numberBelongtoIndividual.py)
 
+[The predictions of the system can be visualized with this Python script.](fromCSVtoRectangle.py)
+
 
 
 
