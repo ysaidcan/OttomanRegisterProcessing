@@ -58,6 +58,14 @@ A numeral spotting model can be trained by using the masked registers under the 
 
 [The predictions of the system can be visualized with this Python script.](fromCSVtoRectangle.py)
 
+Now, the last step is to merge the Access database which is entered manually with automatically recognized objects. We will do this by using the key 'PersonInPage'. However,
+it is not a column in Access database. We need to derive from PersonNumberRegistered. Insert a new column, PersonInPage. The formula will be:
+=IF(AND(N2=N3,O2=O3),AH2+1,1) and Fix 1/2 --> 1 in column FileNo.
+
+Then run mergeDataset_Access.py. Remember to convert necessary column names in number_individuals_combined file.
+
+The results will be saved as merged_access_CV.csv. Name the first column (empty name) as ID. In order to crop the numbers automatically and match with the manually annotated ground truth, run cropimageAuto.py.
+
 
 
 
